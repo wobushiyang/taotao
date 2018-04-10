@@ -1,88 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <resourceExtensions />
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="false">
-        <processorPath useClasspath="true" />
-      </profile>
-      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+      <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
+        <module name="taotao_common" />
+        <module name="taotao_manage_mapper" />
+        <module name="taotao_manage_pojo" />
+        <module name="taotao_manage_service" />
+        <module name="taotao_manage_web" />
+        <module name="taotao_order" />
+        <module name="taotao_portal" />
+        <module name="taotao_rest" />
+        <module name="taotao_search" />
+        <module name="taotao_sso" />
         <module name="taotaocommon" />
         <module name="taotaoDemo" />
-      </profile>
-      <profile default="false" name="Annotation profile for taotao_common" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="taotao_common" />
-      </profile>
-      <profile default="false" name="Annotation profile for taotao_manage_web" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="taotao_manage_web" />
-      </profile>
-      <profile default="false" name="Annotation profile for taotao_manage_service" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="taotao_manage_service" />
-      </profile>
-      <profile default="false" name="Annotation profile for taotao_manage_mapper" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="taotao_manage_mapper" />
-      </profile>
-      <profile default="false" name="Annotation profile for taotao_manage_pojo" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="taotao_manage_pojo" />
-      </profile>
-      <profile default="false" name="Annotation profile for taotao_order" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="taotao_order" />
-      </profile>
-      <profile default="false" name="Annotation profile for taotao_portal" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="taotao_portal" />
-      </profile>
-      <profile default="false" name="Annotation profile for taotao_rest" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="taotao_rest" />
-      </profile>
-      <profile default="false" name="Annotation profile for taotao_search" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="taotao_search" />
-      </profile>
-      <profile default="false" name="Annotation profile for taotao_sso" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="taotao_sso" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
